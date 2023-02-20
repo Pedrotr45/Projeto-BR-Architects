@@ -1,0 +1,803 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Labrada";
+}
+
+html,body {
+    height: 100%;
+    
+}
+
+/*barra de navegação*/
+
+header.nav-fixed {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 50px;
+    padding: 0 2%;
+    background-color:#071414;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.soon {
+   padding: 5px 0;
+}
+
+.soon h2 {
+    color:#fafafa;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.menu {
+   padding: 5px 0;
+}
+
+.menu a {
+    color:#fafafa;
+    font-size: 24px;
+    font-weight: lighter;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+/*banner-principal*/
+
+main.description {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 100vh;
+    background-image: url("imagem/banner-8.png");
+    
+}
+
+.container-2 {
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.container-2 h2 {
+    color: black;
+    font-size: 37px;
+    font-weight: lighter;
+}
+
+.container-2 h2 span {
+    color: #fafafa;
+    padding: 20px;
+    background-color: #071414;
+    font-size: 37px;
+    font-weight: lighter;
+}
+
+/*sessao-1*/
+
+section.project-1 {
+    width: 100%;
+    max-width: 1280px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 0 2%;
+    background-color: #fafafa;
+}
+
+.text-principal {
+    padding-top: 20px;
+}
+
+.text-principal h2 {
+    color: #071414;
+    font-size: 28px;
+    font-weight: lighter;
+    border-bottom: 1px solid #000;
+}
+
+.fist-row {
+  display: flex;
+  position: relative;
+  top: 10%;
+  left: -1%;
+}
+
+
+.file-1 img {
+  width: 300px;
+}
+
+.file-2 {
+    margin-left: 20px;
+}
+
+.file-2 img {
+    width: 300px;
+}
+
+.file-3 {
+    margin-left: 20px;
+}
+
+.file-3 img {
+    width: 300px;
+}
+
+.fist-row-2 {
+    display: flex;
+    position: relative;
+    top: 20%;
+    left: -1%;
+}
+
+.single-1 img {
+    width: 300px;
+}
+
+.single-2 {
+    margin-left: 20px;
+}
+
+.single-2 img {
+    width: 300px;
+}
+
+.single-3 {
+    margin-left: 20px;
+}
+
+.single-3 img {
+    width: 300px;
+}
+
+.single-4 {
+    margin-left: 20px;
+}
+
+.single-4 img {
+    width: 300px;
+}
+
+/*sessao-2*/
+
+section.about-1 {
+    width: 100%;
+    height: 700px;
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 0 2%;
+    background-color: #fafafa;
+}
+
+.text-about {
+    padding-top: 40px;
+}
+
+.text-about h2 {
+    color: #071414;
+    font-size: 28px;
+    font-weight: lighter;
+    border-bottom: 1px solid #000;
+}
+
+.info {
+    padding-top: 40px;
+   
+}
+
+.info p {
+    color:#030300;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.desk-1 {
+    display: flex;
+    position: relative;
+    top: 10%;
+    left: -1%;
+}
+
+.perfil-1 h2 {
+    color: #030300;
+    font-size: 25px;
+    font-weight: normal; 
+}
+
+.perfil-1 h3 {
+    color: #071414;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.perfil-1 p {
+    color:#030300;
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 10px; 
+}
+
+button.btn-1 {
+    width: 90%;
+    padding: 10px 30px;
+    background-color: #ccc;
+    color: #030300;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    opacity: 0.8;
+    transition: 1s; 
+}
+
+button.btn-1:hover {
+     opacity: 1;
+}
+
+.perfil-1 img {
+    width: 300px;
+}
+
+.perfil-2 {
+    margin-left: 20px;
+}
+
+.perfil-2 h2 {
+    color: #030300;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.perfil-2 h3 {
+    color: #071414;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.perfil-2 p {
+    color:#030300;
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+button.btn-2 {
+    width: 90%;
+    padding: 10px 30px;
+    background-color: #ccc;
+    color: #030300;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    opacity: 0.8;
+    transition: 1s;
+}
+
+button.btn-2:hover {
+    opacity: 1;
+}
+
+.perfil-2 img {
+    width: 300px;
+}
+
+.perfil-3 {
+    margin-left: 20px;
+}
+
+.perfil-3 h2 {
+    color: #030300;
+    font-size: 25px;
+    font-weight: normal; 
+}
+
+.perfil-3 p {
+    color:#030300;
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 10px; 
+}
+
+.perfil-3 h3 {
+    color: #071414;
+    font-size: 22px;
+    font-weight: normal; 
+}
+
+.perfil-3 p {
+    color:#030300;
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 10px; 
+}
+
+.perfil-3 img {
+    width: 300px;
+}
+
+button.btn-3 {
+    width: 90%;
+    padding: 10px 30px;
+    background-color: #ccc;
+    color: #030300;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    opacity: 0.8;
+    transition: 1s; 
+}
+
+button.btn-3:hover {
+    opacity: 1;
+}
+
+.perfil-4 {
+    margin-left: 20px;
+}
+
+.perfil-4 h2 {
+    color: #030300;
+    font-size: 25px;
+    font-weight: normal; 
+}
+
+.perfil-4 h3 {
+    color: #071414;
+    font-size: 22px;
+    font-weight: normal; 
+}
+
+.perfil-4 p {
+    color:#030300;
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 10px; 
+}
+
+.perfil-4 img {
+    width: 300px;
+}
+
+
+button.btn-4 {
+    width: 90%;
+    padding: 10px 30px;
+    background-color: #ccc;
+    color: #030300;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    opacity: 0.8;
+    transition: 1s;
+}
+
+button.btn-4:hover {
+    opacity: 1;
+}
+
+/*sessao-3*/
+
+
+section.sessao-contact {
+    width: 100%;
+    max-width: 1300px;
+    height: 1080px;
+    padding: 0 2%;
+    margin: 0 auto;
+    background-color: #fafafa;
+    
+}
+
+.text-contact {
+    padding-top: 40px;
+}
+.text-contact h2 {
+    color: #071414;
+    font-size: 28px;
+    font-weight: lighter;
+    border-bottom: 1px solid #000;
+}
+
+.form-login h2 {
+    color: #030300;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+form input[type=text] {
+    width: 100%;
+    padding: 10px 30px;
+    border: 1px solid #ccc;
+}
+
+form input[type=text]:focus {
+    outline: 0;
+}
+
+form input[type=submit]{
+    width: 18%;
+    padding: 10px 40px;
+    background-color: black;
+    font-size: 16px;
+    color: #fafafa;
+    cursor: pointer;
+    border: none;
+    opacity: 0.8;
+}
+
+form input[type=submit]:hover {
+    opacity: 1;
+}
+
+.contact-img {
+    width: 100%;
+    height: 88vh;
+    margin: 0 auto;
+    background-image: url("imagem/city.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+
+/*footer*/
+
+footer.rodape {
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    max-width: 1400px;
+    background-color: black;
+    margin-top: 30px;
+}
+
+.text-footer {
+    text-align: center;
+}
+
+.text-footer h2 {
+    color: #fafafa;
+    font-size: 20px;
+    font-weight: normal;
+    padding-top: 33px;
+}
+
+@media screen and (max-width:768px){
+
+    header.nav-fixed {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 50px;
+    padding: 0 2%;
+     
+
+}
+
+.container {
+    display: block;
+    text-align: center;
+    
+}
+
+.soon {
+    
+} 
+
+.menu {
+   display: none;
+ }
+
+
+
+section.project-1 {
+    width: 100%;
+    max-width: 1200px;
+    height: 1230px;
+    margin: 0 auto;
+    padding: 0 2%;
+    
+}
+
+.text-principal {
+    padding-top: 20px;
+    text-align:center;
+}
+
+.fist-row {
+    display: block;
+    position: relative;
+    top: 3%;
+    left: 0%;
+    text-align: center;
+  }
+
+  .file-1 {
+    margin-top: 20px;
+  }
+
+  .file-1 img {
+    width: 280px;
+    
+  }
+
+  .file-2 {
+    margin-left: 0px;
+}
+
+.file-2 img {
+    width: 280px;
+}
+
+.file-3 {
+    margin-left: 0px;
+}
+
+.file-3 img {
+    width: 280px;
+}
+
+
+
+.fist-row-2 {
+    display: block;
+    position: relative;
+    top: 3%;
+    left: 0%;
+    text-align: center;
+}
+
+
+
+.single-1 img {
+    width: 280px;
+}
+
+.single-2 {
+    
+    margin-left: 0;
+}
+
+.single-2 img {
+    width: 280px;
+}
+
+.single-3 {
+   display: none;
+}
+
+
+.single-4 {
+    display: none;
+}
+
+section.about-1 {
+    width: 100%;
+    height: 1990px;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 2%;
+    
+}
+
+.text-about {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.info{
+    text-align: center;
+}
+
+.info p {
+    color:#030300;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.desk-1 {
+    display: block;
+    position: relative;
+    top: 3%;
+    left: 0%;
+    text-align: center;
+}
+
+.perfil-1 img {
+    width: 280px;
+}
+
+.perfil-1 h2 {
+    font-size: 22px;
+   
+}
+
+.perfil-1 h3 {
+    color: #071414;
+    font-size: 20px;
+    
+}
+
+.perfil-1 p {
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 10px; 
+}
+
+button.btn-1 {
+    width: 40%;
+    padding: 10px 30px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    opacity: 0.8;
+    transition: 1s; 
+}
+
+.perfil-2 {
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+
+.perfil-2 img {
+    width: 280px;
+}
+
+.perfil-2 h2 {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.perfil-2 h3 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.perfil-2 p {
+    
+    font-size: 14px;
+    font-weight: normal;
+    
+}
+
+button.btn-2 {
+    width: 40%;
+    padding: 10px 30px;
+    background-color: #ccc;
+    color: #030300;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    opacity: 0.8;
+    transition: 1s;
+}
+
+.perfil-3 {
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+.perfil-3 h2 {
+    font-size: 22px;
+    font-weight: normal; 
+}
+
+.perfil-3 h3 {
+   font-size: 20px;
+   font-weight: normal; 
+}
+
+.perfil-3 p {
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 10px; 
+}
+
+button.btn-3 {
+    width: 40%;
+    padding: 10px 30px;
+    background-color: #ccc;
+    color: #030300;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    opacity: 0.8;
+    transition: 1s; 
+}
+
+.perfil-4 {
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+.perfil-4 h2 {
+    font-size: 22px;
+    font-weight: normal; 
+}
+
+.perfil-4 h3 {
+    font-size: 20px;
+    font-weight: normal; 
+}
+
+.perfil-4 p {
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 10px; 
+}
+
+button.btn-4 {
+    width: 40%;
+    padding: 10px 30px;
+    background-color: #ccc;
+    color: #030300;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    opacity: 0.8;
+    transition: 1s;
+}
+
+section.sessao-contact {
+    width: 100%;
+    max-width: 1200px;
+    height: 1080px;
+    padding: 0 2%;
+    margin: 0 auto;
+
+    
+}
+
+.text-contact {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.form-login h2 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form input[type=text] {
+    text-align: center;
+}
+
+form input[type=submit]{
+    width: 50%;
+    padding: 10px 30px;
+    margin-left: 24%;
+    margin-top: 20px;
+   
+    
+}
+
+
+
+
+
+}
+
